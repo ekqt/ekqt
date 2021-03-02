@@ -1,0 +1,133 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(134deg, rgba(1, 1, 1,0.02) 0%, rgba(1, 1, 1,0.02) 16%,transparent 16%, transparent 76%,rgba(58, 58, 58,0.02) 76%, rgba(58, 58, 58,0.02) 100%),linear-gradient(215deg, rgba(166, 166, 166,0.02) 0%, rgba(166, 166, 166,0.02) 33%,transparent 33%, transparent 79%,rgba(111, 111, 111,0.02) 79%, rgba(111, 111, 111,0.02) 100%),linear-gradient(303deg, rgba(215, 215, 215,0.02) 0%, rgba(215, 215, 215,0.02) 7%,transparent 7%, transparent 90%,rgba(192, 192, 192,0.02) 90%, rgba(192, 192, 192,0.02) 100%),linear-gradient(302deg, rgba(113, 113, 113,0.02) 0%, rgba(113, 113, 113,0.02) 34%,transparent 34%, transparent 73%,rgba(65, 65, 65,0.02) 73%, rgba(65, 65, 65,0.02) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+
+.navbar {
+    background: none;
+}
+
+.navbar-item {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.navbar-cs, .button, .card-header-title, .signature {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.08rem;
+}
+
+.button {
+    font-size: 0.75rem;
+}
+
+.social {
+    font-size: 1rem;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown-item {
+    font-weight: 500;
+}
+
+.backup {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tile {
+    font-size: 0.85rem;
+}
+
+.itemIcon, .addNewIcon {
+    margin-right: 0.2rem;
+}
+
+.itemIcon:hover {
+    cursor: pointer;
+}
+
+.addNew, .text {
+    outline: none;
+}
+
+.box {
+    background: rgb(254, 254, 254);
+}
+
+.block {
+    display: flex;
+}
+
+.NA {
+    background: none;
+    box-shadow: none;
+    height: 0px;
+    padding: 0px;
+}
+
+.tag {
+    margin: 0.25rem 0.25rem 0 0;
+}
+
+@media (min-width: 769px) {
+    .is-ancestor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .is-parent {
+        min-width: calc(100%/4);
+        max-width: calc(100%/4);
+    }
+}
+
+@media (min-width: 1441px) {
+    .is-ancestor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .is-parent {
+        min-width: calc(100%/5);
+        max-width: calc(100%/5);
+    }
+}
+
+.br {
+    border-bottom: 0.1rem solid rgba(180, 180, 180, 0.20);
+    margin: 2.5rem 0;
+}
+
+.featured {
+    color: hsl(0, 0%, 29%);
+}
+
+.featured:hover {
+    color: black;
+    cursor: pointer;
+}

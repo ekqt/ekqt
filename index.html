@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7cf8f42eb1.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/svg" sizes="32x32" href="./chalkboard.svg">
+
+    <title>@thetoolsproject</title>
+
+</head>
+
+<body>
+    <nav class="navbar" id="top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item mx-2" href="./index.html">
+                @thetoolsproject
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link is-arrowless">
+                        <span class="icon-text">
+                            <span class="icon has-text-dark">
+                                <i class="fas fa-tools"></i>
+                            </span>
+                            <span class="navbar-cs">Herramientas</span>
+                        </span>
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="./index.html">
+                            Modelo RACI
+                        </a>
+                        <a class="navbar-item" href="/">
+                            Metas y Objetivos SMART
+                        </a>
+                        <a class="navbar-item" href="./FODA.html">
+                            Análisis FODA
+                        </a>
+                        <a class="navbar-item" href="/">
+                            Los 5 Por Qués
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="./contact.html">
+                            ¿Problemas? Reporta aquí.
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item p-0">
+                    <a class="navbar-link is-arrowless pr-0" href="./about.html">
+                        <span class="icon-text">
+                            <span class="icon has-text-dark">
+                                <i class="fas fa-person-booth"></i>
+                            </span>
+                            <span class="navbar-cs">Conócenos</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="navbar-item p-0">
+                    <a class="navbar-link is-arrowless pr-0" href="./contact.html">
+                        <span class="icon-text">
+                            <span class="icon has-text-dark">
+                                <i class="fas fa-user-astronaut"></i>
+                            </span>
+                            <span class="navbar-cs mr-4">Contáctanos</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div class="columns">
+            <div class="column is-8 is-offset-2 is-10-mobile is-offset-1-mobile content">
+                <h1 class="has-text-centered is-size-1 is-size-2-mobile mb-3">Fundamentos Básicos para la Gestión de
+                    Proyectos</h1>
+                <p class="subtitle has-text-centered is-size-6-mobile mb-0">"En los últimos 12 meses, el 64% de los
+                    proyectos completados cumplieron con éxito sus
+                    objetivos e intenciones originales"</p>
+                <p class="subtitle has-text-centered is-size-6-mobile mb-3">— PMI</p>
+
+                <div class="has-text-centered">
+                    <button class="button filters is-link is-outlined m-1">Alcance</button>
+                    <button class="button filters is-primary is-outlined m-1">Calidad</button>
+                    <button class="button filters is-info is-outlined m-1">Comunicación</button>
+                    <button class="button filters is-danger is-outlined m-1">Riesgo</button>
+                    <button class="button filters is-warning is-outlined m-1">Interesados</button>
+                    <button class="button filters is-success is-outlined m-1">Todas</button>
+                </div>
+                <div class="column is-half is-offset-3">
+                    <nav class="level is-mobile">
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">Visitas</p>
+                                <p class="title">1,000</p>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">Descargas</p>
+                                <p class="title">5,000</p>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-vcentered">
+            <div class="column is-8 is-offset-2 is-10-mobile is-offset-1-mobile content">
+                <div class="tile is-ancestor">
+
+                    <div class="tile is-parent comunicacion interesados">
+                        <article class="tile is-child box">
+                            <i class="fas fa-chess fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">Modelo RACI</p>
+                            <p class="subtitle my-1 is-size-6">Garantiza una asignación clara de funciones y
+                                responsabilidades al equipo del proyecto.
+                            </p>
+                            <span class="tag is-info is-light">Comunicación</span>
+                            <span class="tag is-warning is-light">Interesados</span>
+                        </article>
+                    </div>
+
+                    <div class="tile is-parent alcance calidad">
+                        <article class="tile is-child box">
+                            <i class="far fa-lightbulb fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">Método SMART</p>
+                            <p class="subtitle my-1 is-size-6">Metas y objetivos: específicos, medibles, alcanzables,
+                                relevantes y de duración determinada para nuestro proyecto.
+                            </p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-primary is-light">Calidad</span>
+                        </article>
+                    </div>
+
+                    <a href="./FODA.html" class="featured">
+                        <div class="tile is-parent alcance riesgo">
+                            <article class="tile is-child box">
+                                <i class="fas fa-dumbbell fa-4x mb-2"></i>
+                                <a class="title block is-size-4 mb-0" href="./FODA.html">Análisis FODA</a>
+                                <p class="subtitle my-1 is-size-6">Técnica recomendada para examinar las fortalezas,
+                                    oportunidades, debilidades y amenazas en un proyecto
+                                </p>
+                                <span class="tag is-link is-light">Alcance</span>
+                                <span class="tag is-danger is-light">Riesgo</span>
+                            </article>
+                            </article>
+                        </div>
+                    </a>
+
+                    <div class="tile is-parent alcance calidad">
+                        <article class="tile is-child box">
+                            <i class="fas fa-fish fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">Diagrama de Ishikawa</p>
+                            <p class="subtitle my-1 is-size-6">Comprende la situación actual y las causas de alto nivel de por qué está ocurriendo un problema.
+                            </p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-primary is-light">Calidad</span>
+                        </article>
+                    </div>
+                    <!-- <div class="tile is-parent alcance calidad riesgo">
+                        <article class="tile is-child box">
+                            <i class="fas fa-question fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">
+                                Los 5 Por qués</p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-primary is-light">Calidad</span>
+                            <span class="tag is-danger is-light">Riesgo</span>
+                            <p class="subtitle mt-1 is-size-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent alcance calidad">
+                        <article class="tile is-child box">
+                            <i class="fas fa-project-diagram fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">
+                                Diagrama de Interrelación</p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-primary is-light">Calidad</span>
+                            <p class="subtitle mt-1 is-size-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent alcance calidad riesgo">
+                        <article class="tile is-child box">
+                            <i class="fas fa-route fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">
+                                Flujo de Proceso con Causa Raíz</p>
+                            <span class="tag is-link is-light mt-1 ml-1">Alcance</span>
+                            <span class="tag is-primary is-light">Calidad</span>
+                            <span class="tag is-danger is-light">Riesgo</span>
+                            <p class="subtitle mt-1 is-size-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent alcance calidad riesgo">
+                        <article class="tile is-child box">
+                            <i class="fas fa-tachometer-alt fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">
+                                Capacidad con fallos</p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-primary is-light">Calidad</span>
+                            <span class="tag is-danger is-light">Riesgo</span>
+                            <p class="subtitle mt-1 is-size-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent alcance interesados">
+                        <article class="tile is-child box">
+                            <i class="fas fa-arrows-alt-h fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">
+                                Diagrama de Afinidad</p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-warning is-light">Interesados</span>
+                            <p class="subtitle mt-1 is-size-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent alcance comunicacion interesados">
+                        <article class="tile is-child box">
+                            <i class="fas fa-list-ol fa-4x mb-2"></i>
+                            <p class="title is-size-4 mb-0">
+                                Matriz de Clasificación Ponderada</p>
+                            <span class="tag is-link is-light">Alcance</span>
+                            <span class="tag is-info is-light">Comunicación</span>
+                            <span class="tag is-warning is-light">Interesados</span>
+                            <p class="subtitle mt-1 is-size-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="br column is-8 is-offset-2 is-10-mobile is-offset-1-mobile p-0"></div>
+
+        <div class="column content is-8 is-offset-2 is-10-mobile is-offset-1-mobile my-0 p-0">
+            <h1 class="is-uppercase is-size-6 has-text-grey-dark my-0 p-0">Selecciones de nuestro equipo</h1>
+        </div>
+        <div class="columns content mt-1">
+            <div class="column flex is-4 is-offset-2 is-10-mobile is-offset-1-mobile">
+                <p class="is-size-1 m-0 mr-4"><strong class="has-text-grey-light num">01</strong></p>
+                <div>
+                    <a class="featured"
+                        href="https://medium.com/@jhonnyjosue25/la-productividad-llevada-a-casa-ummm-cuidado-5520f04a82b6">
+                        <div class="media level m-0">
+                            <div class="is-flex">
+                                <figure class="image is-24x24 m-0">
+                                    <img class="is-rounded"
+                                        src="https://scontent-prg1-1.cdninstagram.com/v/t51.2885-19/s320x320/98116462_1752740358198811_479276826489782272_n.jpg?tp=1&amp;_nc_ht=scontent-prg1-1.cdninstagram.com&amp;_nc_ohc=we_B92u-w7gAX-Tw_HW&amp;oh=946a5fab2f3326c39bc00416d1d21830&amp;oe=6066E324"
+                                        alt="Placeholder image">
+                                </figure>
+                                <p class="ml-2"><strong>Jhonny Sevilla</strong> en <strong>Productividad</strong></p>
+                            </div>
+                        </div>
+                        <h4 class="my-1">¿La productividad llevada a casa? Ummm ¡Cuidado!</h4>
+                        <p class="my-1">¿Qué pasa cuando metodologías aplicadas para entornos de mayor eficiencia, son
+                            llevados al hogar y aplicados a la familia?</p>
+                        <p class="m-0">Dic 8, 2018 · lectura 4 min</p>
+                    </a>
+                </div>
+            </div>
+            <div class="column flex is-4 is-10-mobile is-offset-1-mobile">
+                <p class="is-size-1 m-0 mr-4"><strong class="has-text-grey-light num">02</strong></p>
+                <div>
+                    <a class="featured"
+                        href="https://medium.com/@angelarod1208/a-qu%C3%A9-se-refieren-con-ser-creativos-en-los-proyectos-91b1c51904dd">
+                        <div class="media level m-0">
+                            <div class="is-flex">
+                                <figure class="image is-24x24 m-0">
+                                    <img class="is-rounded"
+                                        src="https://miro.medium.com/fit/c/262/262/1*9e8TKQPjJKIothbq18IX9g.png"
+                                        alt="Placeholder image">
+                                </figure>
+                                <p class="ml-2"><strong>Odalis Rodríguez</strong> en <strong>Innovación</strong></p>
+                            </div>
+                        </div>
+                        <h4 class="my-1">¿A qué se refieren con ser creativos en los proyectos?</h4>
+                        <p class="my-1">“La creatividad es permitirte a ti mismo cometer errores. El arte es saber
+                            cuáles mantener”.</p>
+                        <p class="m-0">Nov 21, 2018 · lectura 5 min</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="columns content">
+            <div class="column flex is-4 is-offset-2 is-10-mobile is-offset-1-mobile">
+                <p class="is-size-1 m-0 mr-4"><strong class="has-text-grey-light num">03</strong></p>
+                <div>
+                    <a class="featured"
+                        href="https://medium.com/@dperalta523/direcci%C3%B3n-de-proyectos-paso-uno-aprender-a-levantarse-ccb0b86f7f16">
+                        <div class="media level m-0">
+                            <div class="is-flex">
+                                <figure class="image is-24x24 m-0">
+                                    <img class="is-rounded"
+                                        src="https://miro.medium.com/fit/c/262/262/0*bnK0gbDSHUVUtCj5"
+                                        alt="Placeholder image">
+                                </figure>
+                                <p class="ml-2"><strong>Daniel Peralta</strong> en <strong>Emprendimiento</strong></p>
+                            </div>
+                        </div>
+                        <h4 class="my-1">Dirección de Proyectos. Paso Uno: Aprender a Levantarse</h4>
+                        <p class="my-1">Desde pequeños, cuando empezábamos a aprender a caminar, caer era una costumbre,
+                            pero levantarse nunca fue un obstáculo.</p>
+                        <p class="m-0">Nov 23, 2018 · lectura 5 min</p>
+                    </a>
+                </div>
+            </div>
+            <div class="column flex is-4 is-10-mobile is-offset-1-mobile">
+                <p class="is-size-1 m-0 mr-4"><strong class="has-text-grey-light num">04</strong></p>
+                <div>
+                    <a class="featured"
+                        href="https://medium.com/@ekheinquarto/te-presento-al-tonto-del-equipo-73b405e772c1">
+                        <div class="media level m-0">
+                            <div class="is-flex">
+                                <figure class="image is-24x24 m-0">
+                                    <img class="is-rounded"
+                                        src="https://miro.medium.com/fit/c/262/262/1*udo9A6o9pkPNFqGTnes6Uw.jpeg"
+                                        alt="Placeholder image">
+                                </figure>
+                                <p class="ml-2"><strong>Héctor Sosa</strong> en <strong>Liderazgo</strong></p>
+                            </div>
+                        </div>
+                        <h4 class="my-1">Te presento al tonto del equipo…</h4>
+                        <p class="my-1">“El liderazgo es un grito para todos los que deseen hacer la diferencia y dejar
+                            un impacto más allá de su presencia.”</p>
+                        <p class="m-0">Feb 21, 2019 · lectura 5 min</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="columns content">
+            <div class="column flex is-4 is-offset-2 is-10-mobile is-offset-1-mobile">
+                <p class="is-size-1 m-0 mr-4"><strong class="has-text-grey-light num">05</strong></p>
+                <div>
+                    <a class="featured"
+                        href="https://medium.com/@karelyapineda/los-mayores-desperdicios-de-tiempo-que-lamentamos-cuando-envejecemos-82be2089fb66">
+                        <div class="media level m-0">
+                            <div class="is-flex">
+                                <figure class="image is-24x24 m-0">
+                                    <img class="is-rounded"
+                                        src="https://miro.medium.com/fit/c/262/262/1*Kmjk1dOAIk-Ifl_MDRvf4w.jpeg"
+                                        alt="Placeholder image">
+                                </figure>
+                                <p class="ml-2"><strong>Kareyla Pineda</strong> en <strong>Cultura
+                                        Organizacional</strong></p>
+                            </div>
+                        </div>
+                        <h4 class="my-1">Los Mayores Desperdicios De Tiempo Que Lamentamos Cuando Envejecemos</h4>
+                        <p class="my-1">Cuando miro hacia atrás, mis mayores arrepentimientos en perdidas de tiempo no
+                            son pasar demasiado tiempo en redes sociales o administrar mal mis tareas diarias.</p>
+                        <p class="m-0">Mar 14, 2019 · lectura 6 min</p>
+                    </a>
+                </div>
+            </div>
+            <div class="column flex is-4 is-10-mobile is-offset-1-mobile">
+                <p class="is-size-1 m-0 mr-4"><strong class="has-text-grey-light num">06</strong></p>
+                <div>
+                    <a class="featured"
+                        href="https://medium.com/@puerto10silvio/una-aventura-llamada-administraci%C3%B3n-de-proyectos-3093a0ab319f">
+                        <div class="media level m-0">
+                            <div class="is-flex">
+                                <figure class="image is-24x24 m-0">
+                                    <img class="is-rounded"
+                                        src="https://miro.medium.com/fit/c/262/262/1*0eBK6SJjQ4J8Rr_WEJoJFQ.jpeg"
+                                        alt="Placeholder image">
+                                </figure>
+                                <p class="ml-2"><strong>Silvio Puerto</strong> en <strong>Emprendimiento</strong></p>
+                            </div>
+                        </div>
+                        <h4 class="my-1">Una aventura llamada: Administración de Proyectos.</h4>
+                        <p class="my-1">Lo que un día inicio como una simple decisión al no tener empleo, ya entró en su
+                            etapa final; un semestre nos separa de convertirnos en administradores de proyectos.</p>
+                        <p class="m-0">Dic 17, 2018 · lectura 3 min</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="br column is-8 is-offset-2 is-10-mobile is-offset-1-mobile p-0"></div>
+
+        <div class="columns">
+            <div class="column is-8 is-offset-2 is-10-mobile is-offset-1-mobile">
+                <div class="content">
+                    <h1 class="is-uppercase is-size-6 has-text-grey-dark">Preguntas frecuentes</h1>
+                    <div class="block level my-3">
+                        <h3 class="m-0">¿Por qué es aprender gestión de proyectos?</h3>
+                        <span class="icon is-size-5">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <p>Cuando el análisis de negocios se ejecuta adecuadamente en iniciativas y proyectos,
+                            se obtienen los siguientes beneficios:</p>
+
+                        <ul>
+                            <li>Se producen requisitos de alta calidad que dan como resultado el desarrollo de productos
+                                y
+                                servicios que satisfacen las expectativas del cliente;</li>
+                            <li>Las partes interesadas están más involucradas en el proceso y la aceptación se logra más
+                                fácilmente;</li>
+                            <li>Es más probable que los proyectos se entreguen a tiempo, dentro del alcance y dentro del
+                                presupuesto;</li>
+                            <li>Las soluciones implementadas brindan valor comercial y satisfacen las necesidades de las
+                                partes interesadas; y</li>
+                            <li>Las organizaciones desarrollan competencias en análisis empresarial que son
+                                reutilizables
+                                para proyectos futuros.</li>
+                        </ul>
+
+                        <p>Para muchas organizaciones, el análisis empresarial eficaz no es una parte integral de su
+                            trabajo. Como resultado, los proyectos no brindan el valor comercial previsto. En 2014, PMI
+                            informó lo siguiente:</p>
+
+                        <ul>
+                            <li>En los últimos 12 meses, el 64% de los proyectos completados cumplieron con éxito sus
+                                objetivos e intenciones originales.</li>
+                            <li>En los últimos 12 meses, el 16% de los proyectos que comenzaron se consideraron
+                                fracasos.
+                            </li>
+                            <li>El 37% de las organizaciones informó que la "recopilación de requisitos inexacta" es la
+                                causa principal del fracaso del proyecto.</li>
+                            <li>Las malas prácticas de gestión de requisitos son la segunda causa principal del fracaso
+                                del
+                                proyecto, solo superada por las prioridades cambiantes de la organización.</li>
+                        </ul>
+                    </div>
+                    <div class="block level my-3">
+                        <h3 class="m-0">¿Quién es responsable de los requerimientos?</h3>
+                        <span class="icon is-size-5">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="block level my-3">
+                        <h3 class="m-0">¿Cómo identificar un problema u oportunidad?</h3>
+                        <span class="icon is-size-5">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="block level my-3">
+                        <h3 class="m-0">¿Cuál es el estado actual de mi equipo?</h3>
+                        <span class="icon is-size-5">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column backup">
+            <a class="button is-dark is-inverted px-4 py-4" href="#top">
+                <span class="icon-text">
+                    <span>Volver arriba
+                    </span>
+                    <span class="icon">
+                        <i class="fas fa-chevron-up"></i>
+                    </span>
+                </span>
+            </a>
+        </div>
+
+        <br>
+
+        <footer class="footer">
+            <div class="columns">
+                <div class="column content is-3 is-offset-3">
+                    <h3 class="has-text-left my-3">
+                        <span class="icon-text">
+                            <span class="icon">
+                                <i class="fas fa-hand-holding-heart"></i>
+                            </span>
+                            <span>Mantente actualizado</span>
+                        </span>
+                    </h3>
+                    <p>
+                        Recibe las noticias de nuestras herramientas
+                    </p>
+                    <form action="https://api.sheetmonkey.io/form/kHnW3eCWwU9kG51CGka7g5" method="POST">
+                        <input type="hidden" name="created" value="x-sheetmonkey-current-date-time" />
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <p class="control is-expanded has-icons-left has-icons-right">
+                                        <input class="input is-success" type="email" placeholder="jose@correo.com"
+                                            name="email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <button class="button is-dark is-inverted px-4 py-4" type="submit">
+                                            Suscríbete!
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="tool" value="Footer" />
+                    </form>
+        
+                </div>
+                <div class="column is-3">
+                    <div class="content has-text-left my-3">
+                        <h3 class="has-text-left my-2">
+                            <span class="icon-text">
+                                <span class="icon">
+                                    <i class="far fa-laugh-wink"></i>
+                                </span>
+                                <span>¡Gracias por visitarnos!</span>
+                            </span>
+                        </h3>
+                        <p>¿Tienes algún comentario o quisieras sugerir una herramienta para este proyecto? <a href="./contact.html">Manda tu
+                            mensaje aquí!</a>
+                </p>
+                        <p class="signature">
+                            <strong>MMXXI <a href="https://www.instagram.com/ekheinquarto/" >@ekheinquarto</a></strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            <script src="./script.js"></script>
+</body>
+
+</html>
